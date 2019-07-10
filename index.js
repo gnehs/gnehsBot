@@ -1,0 +1,7 @@
+const config = require("./config.json")
+const Telegraf = require('telegraf')
+const Telegram = require('telegraf/telegram')
+const telegram = new Telegram(config.token)
+const bot = new Telegraf(config.token)
+console.log(new Date())
+bot.launch()
