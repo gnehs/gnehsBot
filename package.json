@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/gnehs/gnehsBot#readme",
   "dependencies": {
-    "mongoose": "^5.6.4",
+    "mongoose": "^5.7.5",
     "telegraf": "^3.30.1"
   }
 }
